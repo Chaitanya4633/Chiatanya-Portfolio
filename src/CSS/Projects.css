@@ -1,0 +1,126 @@
+.Projects-Container{
+  background-color: #c5bfbf;
+  box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.15); 
+  height:auto;
+
+}
+.Project{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:50px;
+  /* background-color: rgb(155, 202, 109); */
+  width:100%;
+  padding:20px;
+  /* margin:0px 50px 10px 50px; */
+}
+.Project-Card{
+  /* background-color: rgb(239, 3, 239); */
+  margin-top:0px;
+  width:700px;
+  box-shadow: 4px 4px 4px rgb(126, 125, 125);
+}
+
+.Project-Card{
+  cursor: pointer;
+}
+
+.Project-Title h1,.Project-Description h5{
+  margin: 0px;
+}
+.Project-Title{
+  background-color: rgb(241, 241, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding:10px 0px 10px 0px;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+
+.Project-Title h1{
+  justify-content: center;
+  align-items: center;
+}
+
+.Project-logo{
+  height:200px;
+}
+
+.Project-logo img{
+  width:100%;
+  height:200px;
+}
+
+.Project-Description{
+  background-color: rgb(241, 241, 245);
+}
+
+.Project-Description h5{
+  margin: 0px;
+  padding:10px;
+  font-size:15px;
+}
+
+
+
+/*
+  .Projects-Container {
+  background-color: #f0f2f5;
+  padding: 30px 20px;
+}
+
+.Project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Project-Card {
+  width: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Project-Card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+}
+
+.Project-Title {
+  background-color: #2e86de;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.Project-logo {
+  height: 200px;
+  background-color: #e9ecef;
+}
+
+.Project-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Project-Description {
+  padding: 12px 16px;
+  background-color: #ffffff;
+}
+
+.Project-Description h5 {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+*/

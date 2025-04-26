@@ -1,0 +1,74 @@
+body {
+  padding-top: 60px; /* Matches the height of the .Nav-Bar */
+  overflow-x: hidden;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity:0;}
+  100% {opacity:1};
+}
+.Name{
+    color:Black;
+    /* animation: blink 10s infinite; */
+}
+.Nav-Bar{
+  height:60px;
+  display:flex;
+  flex-direction:row;
+  padding-left:100px;
+  padding-right:150px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position:fixed;
+  width:90%;
+  top:0;
+}
+ul{
+  display:flex;
+  flex-direction:row;
+  width:700px;
+  justify-content: space-between;
+  margin-left:50px;
+}
+
+.Right-Nav-Bar a{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.Right-Nav-Bar a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: rgb(0, 0, 0);
+  transition: width 0.3s ease, left 0.3s ease; 
+}
+
+.Right-Nav-Bar a:hover {
+  opacity: 0.8;
+}
+
+.Right-Nav-Bar a:hover::after {
+  width: 100%; 
+  left: 0px; 
+}
+
+.Blog-Button {
+  background-color: limegreen;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.Blog-Button:hover {
+  background-color: #28a745;
+}
